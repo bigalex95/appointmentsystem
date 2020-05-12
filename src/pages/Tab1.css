@@ -1,3 +1,10 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.eklebtn {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  right: 0;
+}

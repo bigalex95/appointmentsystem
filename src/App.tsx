@@ -24,6 +24,7 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
+import RandevuEkle from "./pages/RandevuEkle";
 
 const App: React.FC = () => (
   <IonApp>
@@ -31,6 +32,7 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
+        <Route path="/home/randevuekle" component={RandevuEkle} exact={true} />
         <Route exact path="/home" component={Tabs} />
         <Route exact path="/" render={() => <Redirect to="/login" />} />
       </IonRouterOutlet>

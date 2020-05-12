@@ -13,6 +13,7 @@ import { triangle, listCircleOutline } from "ionicons/icons";
 import "./Tabs.css";
 import Tab1 from "./Tab1";
 import Tab2 from "./Tab2";
+import RandevuEkle from "./RandevuEkle";
 
 const Tabs: React.FC = () => {
   return (

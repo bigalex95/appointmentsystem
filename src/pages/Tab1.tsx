@@ -12,6 +12,7 @@ import {
   IonAvatar,
   IonItemOptions,
   IonItemOption,
+  IonButton,
 } from "@ionic/react";
 import "./Tab2.css";
 
@@ -31,9 +32,22 @@ const arr = [
     desc: "Konu Konu Konu!",
     time: "9.25 15.Nisan.2020",
   },
+  {
+    name: "Rey",
+    desc: "Konu Konu Konu!",
+    time: "9.25 15.Nisan.2020",
+  },
+  {
+    name: "Rey",
+    desc: "Konu Konu Konu!",
+    time: "9.25 15.Nisan.2020",
+  },
 ];
 
 const Tab1: React.FC = () => {
+  async function ekleyegit() {
+    window.location.href = "/randevuekle";
+  }
   return (
     <IonPage className="ion-text-center">
       <IonHeader>
@@ -66,6 +80,13 @@ const Tab1: React.FC = () => {
             </IonItemSliding>
           ))}
         </IonList>
+        <IonButton
+          className="eklebtn"
+          color="primary"
+          routerLink="/home/randevuekle"
+        >
+          Randevu Ekle
+        </IonButton>
       </IonContent>
     </IonPage>
   );
