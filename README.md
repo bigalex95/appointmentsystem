@@ -2,7 +2,7 @@ This project was bootstrapped with [ionic start App --type=react](https://ionicf
 
 ## Requirements
 
-Install Node and npm for working with project [Download Node(https://nodejs.org/en/download/)
+Install Node and npm for working with project [Download Node](https://nodejs.org/en/download/)
 
 1. git clone https://github.com/bigalex95/appointmentsystem.git
 2. cd appointmentsystem
