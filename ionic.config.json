@@ -1,0 +1,7 @@
+{
+  "name": "appointmentSystem",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

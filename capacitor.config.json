@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "appointmentSystem",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
