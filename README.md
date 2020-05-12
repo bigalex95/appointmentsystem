@@ -1,4 +1,4 @@
-This project was bootstrapped with [ionic start App --type=react](https://ionicframework.com/react#start).
+This project was bootstrapped with [ionic start --type=react](https://ionicframework.com/react#start).
 
 ## Requirements
 
